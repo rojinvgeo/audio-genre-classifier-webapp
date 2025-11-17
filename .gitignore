@@ -1,0 +1,50 @@
+# ----------------------------
+# Python / Machine Learning
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.joblib     # joblib cache files (safe)
+# DO NOT add *.pkl (we want to upload models)
+
+# ----------------------------
+# Virtual Environment
+# ----------------------------
+venv/
+env/
+ENV/
+.venv/
+
+# ----------------------------
+# OS system files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Streamlit cache
+# ----------------------------
+.streamlit/cache/
+.streamlit/state/
+
+# ----------------------------
+# Audio files (optional)
+# ----------------------------
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# ----------------------------
+# Logs and temp files
+# ----------------------------
+*.log
+*.tmp
+*.txt~
+*.swp
+
+# ----------------------------
+# VS Code
+# ----------------------------
+.vscode/
